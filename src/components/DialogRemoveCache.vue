@@ -1,7 +1,7 @@
 <template>
 
     <!-- Dialog: Remove Cache Map -->
-    <v-dialog v-model="dialogRemoveCache" width="400">
+    <v-dialog v-model="dialogRemoveCache" width="450">
         <v-card>
           <v-toolbar color="purple darken-3" dark dense flat>
             <v-toolbar-title class="text-body-2">
@@ -11,7 +11,7 @@
           </v-toolbar>
   
           <v-card-text class="mt-4">
-            <p class="ml-1"><strong>Si no tienes red no podrás ver mapas!! 🙁</strong></p>
+            <p><strong>Si no tienes red no podrás ver mapas!! 🙁</strong></p>
           </v-card-text>
 
           <v-card-actions class="px-10">

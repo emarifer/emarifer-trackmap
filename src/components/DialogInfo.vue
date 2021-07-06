@@ -1,7 +1,7 @@
 <template>
 
     <!-- Dialog: Track Info -->
-    <v-dialog v-model="dialogInfo" width="400">
+    <v-dialog v-model="dialogInfo" width="450">
         <v-card>
           <v-toolbar color="purple darken-3" dark dense flat>
             <v-toolbar-title class="text-body-2">
